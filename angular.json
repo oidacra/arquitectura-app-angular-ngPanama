@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "arquitectura-test"
+    }
+  },
+  "defaultProject": "arquitectura-test",
+  "cli": {
+    "analytics": "32fee0df-36d4-4620-9989-d2ca5609abee"
+  }
 }
