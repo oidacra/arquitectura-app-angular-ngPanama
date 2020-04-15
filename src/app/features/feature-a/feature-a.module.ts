@@ -4,14 +4,8 @@ import { FeatureARoutingModule } from './feature-a-routing.module';
 import { FeatureAComponent } from './feature-a.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 
-import {MatCardModule} from '@angular/material/card';
-
 @NgModule({
   declarations: [FeatureAComponent],
-  imports: [
-    SharedModule,
-    FeatureARoutingModule,
-    MatCardModule
-  ]
+  imports: [SharedModule, FeatureARoutingModule],
 })
-export class FeatureAModule { }
+export class FeatureAModule {}

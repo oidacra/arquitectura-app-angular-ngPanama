@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
-
 @NgModule({
   declarations: [],
   imports: [
@@ -15,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 
     // material
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
   ],
   exports: [
     // vendor
@@ -25,7 +24,6 @@ import { MatButtonModule } from '@angular/material/button';
     // material
     MatCardModule,
     MatButtonModule,
-
-  ]
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
