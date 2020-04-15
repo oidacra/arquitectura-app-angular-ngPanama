@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  {{ title }}
+
+  <span class="spacer"></span>
+
+  <button mat-flat-button color="primary" routerLink="home" routerLinkActive="active">Home</button>
+  <button mat-flat-button color="primary" routerLink="feature-a" routerLinkActive="active">Feature A</button>
+  <button mat-flat-button color="primary" routerLink="feature-b" routerLinkActive="active">Feature B</button>
+  <button mat-flat-button color="primary" routerLink="feature-c" routerLinkActive="active">Feature C</button>
+</mat-toolbar>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
